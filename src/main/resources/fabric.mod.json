@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "auto_schematic_pro",
+  "version": "${version}",
+  "name": "Auto Schematic Pro",
+  "description": "A server-authoritative schematic builder (single-player, LAN and dedicated servers) with a glass-style control panel and double-chest material restocking.",
+  "authors": ["Auto Schematic Pro"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.autoschematicpro.AutoSchematicProMod"],
+    "client": ["dev.autoschematicpro.AutoSchematicProClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
